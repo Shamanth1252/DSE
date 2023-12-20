@@ -1,0 +1,16 @@
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([6,7,8,9,10])
+print("array a:",a)
+print("array b:",b)
+print("sum of arrat a and b:",np.add(a,b))
+print("differance of array a and b:",np.subtract(a,b))
+print("Product of array a and b:",np.multiply(a,b))
+print("divisoion of array a and b:",np.divide(a,b))
+print("Square root of array a :",np.sqrt(a))
+print("Exponential of array a :",np.exp(a))
+
+print("minimum value of array a :",np.min(a))
+print("maximum value of array b :",np.max(b))
+print("mean  of array a :",np.mean(a))
+print("Standerd deviation of array b :",np.sqrt(b))
